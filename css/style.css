@@ -19,7 +19,7 @@ body {
   width: 300px;
   height: 300px;
   transform-style: preserve-3d;
-  transform: rotateX(-30deg) rotateY(-50deg) rotateZ(359deg);
+  transform: rotateX(-25deg) rotateY(-50deg) rotateZ(359deg);
   transition: 2s ease;
   cursor: pointer;
 }
@@ -32,8 +32,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #23314250 ;
-  border: 1px solid #2331424f ;;
+  background-color: #32455c3f ;
+  border: 1px solid #32455c34 ;;
 }
 .front {
   transform: translate3d(0, 0, 150px);
