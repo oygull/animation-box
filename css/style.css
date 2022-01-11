@@ -48,7 +48,7 @@ body {
   left: 0;
   background-color:#26b460;
   transform: translate3d(0, 300px, 150px) rotateY(180deg);
-  animation: cubeFront 2s infinite ease;
+  animation: cubeFront 2s infinite ease alternate;
 }
 .back {
   transform: translate3d(0, 0, -150px) rotateY(180deg);
@@ -63,7 +63,7 @@ body {
   left: 0;
   background-color:#26b460;
   transform: translate3d(0, 300px, -150px) rotateY(180deg);
-  animation: cubeFront 2s infinite ease;
+  animation: cubeFront 2s infinite ease alternate;
 }
 
 .left {
@@ -79,7 +79,7 @@ body {
   left: 0;
   background-color: #26b460;
   transform: translate3d(0, 300px, -150px) rotateY(180deg);
-  animation: cubeFront 2s infinite ease;
+  animation: cubeFront 2s infinite ease alternate;
 }
 .right {
   transform: translate3d(150px, 0, 0px) rotateY(90deg);
@@ -94,7 +94,7 @@ body {
   left: 0;
   background-color:#26b460;
   transform: translate3d(0, 300px, -150px) rotateY(180deg);
-  animation: cubeFront 2s infinite ease;
+  animation: cubeFront 2s infinite ease alternate;
 }
 
 .top {
@@ -104,7 +104,7 @@ body {
 
 .bottom {
   transform: translate3d(0px, 150px, 0px) rotateX(-90deg);
-  animation: cubeTop 2s infinite ease;
+  animation: cubeTop 2s infinite ease alternate;
   background-color:#26b460;
  
 }
